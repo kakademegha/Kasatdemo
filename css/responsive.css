@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:1024px) and (max-width:1450px) {
+	.bgImageBox .flexWrap.col_1_1_1_1 .col{padding:80px 3%;}
+}
+
+@media only screen and (min-width:0px) and (max-width:1023px) {
+
+header .content_1200{ padding-top: 20px; padding-bottom: 20px;}
+#page-wrap{ margin-top: 0px;}
+
+header.scroll .res-nav{ top:23px;}
+/* home page start here */
+h1{ font-size: 62px; line-height:76px;}
+.titleBox h2{font-size: 62px; line-height:72px;}
+.descriptionBox p, p{ font-size: 20px; line-height:28px;}
+
+.footerTop .col{ width:33.33%; padding:0 20px;}
+.footerTop .content_1200{ padding: 0px;}
+/* home page end here */
+
+/* about page start here */
+/* about page end here */
+
+/* services page start here */
+/* services page end here */
+
+/* clients page start here */
+.clients .col{ width:25%;}
+/* clients page end here */
+
+/* news page start here */
+/* news page end here */
+
+/* contact page start here */
+body.page-template-template-contact-us .innerBanner .box::before{ padding-top: 50%;}
+/* contact page end here */
+
+}
+
+@media only screen and (min-width:0px) and (max-width:900px) {
+	/* about page start here */
+	.bgImageBox .flexWrap.col_1_1_1_1 .col{ width: 50%;}
+	.bgImageBox .flexWrap.col_1_1_1_1 .col:first-child{ border-bottom: #fff solid 1px;}
+	.bgImageBox .flexWrap.col_1_1_1_1 .col:nth-of-type(2){ border-bottom: #fff solid 1px; border-right: 0px;}
+	/* about page end here */
+
+	/* services page start here */
+	.content_1200 .warehousingText{ width: 70%;}
+	/* services page end here */
+
+}
+
+@media only screen and (min-width:0px) and (max-width:800px) {
+
+.aboutPage section, .servisesSec section, .newsSec, .contactSec, .imageTextSec{
+	padding: 30px 0;
+}
+
+.ambitionsBox .titleBox{ padding-bottom: 30px;}
+
+	/* home page start here */
+	h1{ font-size: 52px; line-height: 65px;}
+	.titleBox h2{font-size:52px; line-height:65px;}
+	/* home page end here */
+
+	/* about page start here */
+	.col_30_70 .col:first-child{ width: 50%; padding: 0px;}
+	.col_30_70 .col{ width: 100%; padding-left: 40px;}
+	.titleBox{ padding-right:30%;}
+	.titleBox h6{ padding-left:40px;}
+	.titleRight h2{ padding-right:40px;}
+	.aboutPage section:nth-child(2n) .titleBox{ padding-left: 30%;}
+	.descriptionBox p, p, .imageTextContainer p, ul, ol{ font-size:20px; line-height: 26px;}
+	.titleBox span{ padding-top: 8px;}
+	.thumbimageBox{ padding-bottom:30px;}
+
+	.bgImageBox .flexWrap.col_1_1_1_1 .col{ padding-top: 60px; padding-bottom: 60px;}
+
+	.teamTitle .titleContainer{ width: 100%;}
+	.teamDetails.active .flexWrap .col:first-child{ margin-top: 0px;}
+	.teamDetails .thumbimageBox{ max-width: 250px; margin-top: 0px;}
+	.teamDetails .col_20_80 .col:first-child{width:30%!important;}
+	.teamDetails .col_20_80 .col{width:70%!important;}
+	.teamDetails.active .thumbimageBox img{ margin-top: 0px;}
+	/* about page end here */
+
+	/* services page start here */
+	.servisesSec section:first-child .titleBox{ padding-left: 30%;}
+	.imageTextContainer .flexWrap.col_1_1 .col:first-child{ width: 70%; padding-bottom: 20px;}
+	.imageTextContainer .flexWrap.col_1_1 .col:first-child .box{ position:relative; width: 100%; margin-left: -20px;}
+	.imageTextContainer .flexWrap.col_1_1 .col{ width: 100%;}
+	.imageTextContainer .flexWrap .col:last-child{ padding-left:0px!important;}
+	.imageTextContainer .flexWrap .col:last-child .desc{ margin-left: 40px; padding-left: 35px;}
+	.imageTextContainer .titleBox{ padding-bottom:20px;}
+	.imageTextContainer .titleBox h2{ padding-bottom: 10px;}
+	.imageTextContainer .titleBox h6{ padding-left: 40px;}
+
+	.fullSlider .slick-dots{ padding: 20px 0; padding-bottom: 0px;}
+	.content_1200 .warehousingText{ width: 100%; padding-bottom: 30px;}
+
+	.bgImageBox{ padding: 60px 0;}
+	.sliderBox .content_1200{ padding-top:30px;}
+	/* services page end here */
+
+	/* clients page start here */
+	.clients .col{ width:33.33%;}
+	.grayBg{ padding:30px 0;}
+	.content_1200.clients{ padding-top: 60px; padding-bottom: 60px;}
+	/* clients page end here */
+
+	/* contact page start here */
+	.contactDetail .col{ width:50%;}
+	.contactDetail .col:last-child{ padding-left: 35px;}
+	/* contact page end here */
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+  body.page-template-template-home #page-wrap{ height: auto;}
+
+}
+
+@media only screen and (min-width:0px) and (max-width:690px) {
+	/* home page start here */
+	.footerTop .col{ width: 50%;}
+	  .desc {
+
+    width: 100%;    
+    
+}
+input[type='text'],
+input[type='tel'],
+input[type='date'],
+input[type='email'],
+
+textarea,
+select{
+    margin: 30px 0px 0px 76px;
+}
+.desc
+{
+	display:block;
+	width:100%;
+}
+.social-icon
+{float:left;	
+}
+.column{
+	width:100%;
+	display:block;
+	top:0px;
+}
+.column1{
+	width:100%;
+	display:block;
+	
+}
+	.footerTop .flexHorizontalCenter {
+  	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+}
+.midblock1, .midblock2, .midblock3 {
+    width: 100%;
+}
+
+.rivaaz-block {
+    width: 100%;
+}
+.rivaaz-video-block
+{
+ width: 100%;	
+}
+	/* home page end here */
+
+	/* clients page start here */
+	.clients .col{ padding: 15px;}
+	.content_1200.clients{ padding-top: 40px; padding-bottom: 40px;}
+	/* clients page end here */
+}
+
+@media only screen and (min-width:0px) and (max-width:640px) {
+	/* home page start here */
+	h1{ font-size: 42px; line-height: 55px;}
+	.titleBox h2{font-size:42px; line-height:55px;}
+	/* home page end here */
+
+.innerBanner .box::before, .fullSlider .box::before{ padding-top: 300px;}
+.titleBox h6{ font-size: 18px; padding-top: 4px}
+
+.imageTextContainer .flexWrap.col_1_1 .col:first-child{ width: 80%;}
+
+	
+	.footerTop{ padding: 20px 0;}
+
+body.page-template-template-contact-us .innerBanner .box::before{ padding-top:400px!important;}
+}
+
+@media only screen and (min-width:0px) and (max-width:600px) {
+/* about page start here */
+.titleContainer .name, .titleContainer .designation{ width: 100%!important; float: left;}
+/* about page end here */
+.dash{ display:none;}
+}
+
+@media only screen and (min-width:0px) and (max-width:550px) {
+/* about page start here */
+.bgImageBox .flexWrap.col_1_1_1_1 .col{width:100%; padding:60px 20px; border-right: 0px; border-bottom: #fff solid 1px;}
+/* about page end here */
+
+/* contact page start here */
+.contactDetail .col:first-child{ padding-bottom: 25px;}
+.contactDetail .col{ width: 100%!important; padding-left: 0px!important;}
+
+/* contact page end here */
+
+.copyrights{ width: 100%;}
+.footerlinks{ float: left!important; padding-top: 10px!important;}
+.footerlinks li:first-child a{ padding-left: 0px;}
+.footerlinks li a{ padding-left: 10px;}
+
+}
+
+@media only screen and (min-width:0px) and (max-width:480px) {
+
+.innerBanner .box::before, .fullSlider .box::before{ padding-top: 250px;}
+
+.alignright, .alignleft{ float:none; margin: 10px auto 20px auto!important;}
+
+/* home page start here */
+h1{ font-size: 35px; line-height:45px;}
+.titleBox h2{font-size:35px; line-height:45px;}
+.homeImageInfo{ top: 60px;}
+.homeImageInfo .subTitle{ line-height: 26px;}
+/* home page end here */
+
+/* about page start here */
+.teamDetails .col_20_80 .col, .teamDetails .col_20_80 .col:first-child{ width: 100%!important; padding-left: 0px!important;}
+.teamDetails .col_20_80 .col:first-child{ padding-right: 0px!important;}
+.thumbimageBox{ padding-bottom: 20px;}
+.col_20_80 .col, .desc{ padding-left: 20px;}
+.col_30_70 .col{ padding-left:20px;}
+.titleBox h6{ padding-left: 20px; font-size: 16px; line-height: 22px;}
+.titleRight h2{ padding-right:20px;}
+.bgImageBox .flexWrap.col_1_1_1_1 .col{ padding-top: 40px; padding-bottom: 40px;}
+
+/* about page end here */
+
+/* services page start here */
+.imageTextContainer .flexWrap .col:last-child .desc{ padding-left: 20px; margin-left: 20px;}
+.bgImageBox{ padding: 40px 0;}
+.imageTextContainer .titleBox h6{ padding-left:20px;}
+/* services page end here */
+
+/* clients page start here */
+.clients .col{ width: 50%;}
+.content_1200.clients{ padding-top: 20px; padding-bottom: 20px;}
+/* clients page end here */
+.footerTop .col{width:100%;}
+}
+
+@media only screen and (min-width:0px) and (max-width:375px) {
+
+/* home page start here */
+h1{ font-size: 32px; line-height:40px;}
+.titleBox h2{font-size:32px; line-height:40px;}
+.homeImageInfo{ top:50px;}
+/* home page end here */
+
+}
